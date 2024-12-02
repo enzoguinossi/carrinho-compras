@@ -1,8 +1,11 @@
 # 🛒 Simulador de Carrinho de Compras
 
+[**Acesse o projeto aqui!**](https://enzoguinossi.github.io/carrinho-compras/)
+
 ---
 
 Este projeto é um **simulador de carrinho de compras** desenvolvido como parte do curso de **JavaScript** pela [Alura](https://www.alura.com.br/). O objetivo é permitir que o usuário selecione produtos, adicione-os ao carrinho, visualize os itens selecionados, calcule o valor total e limpe o carrinho.
+
 ## 🔍 Como Funciona
 
 O simulador utiliza conceitos importantes do JavaScript, como:
@@ -30,5 +33,3 @@ O simulador utiliza conceitos importantes do JavaScript, como:
 ---
 
 > 🎉 **Desenvolvido por [Enzo Guinossi](https://www.linkedin.com/in/enzo-wacker-guinossi/)** 🎉
-
----
