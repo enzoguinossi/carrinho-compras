@@ -1,5 +1,6 @@
 const produtoSelect = document.getElementById('produto');
 let produtoSelecionado = produtoSelect.value;
+document.getElementById('quantidade').value = 1;
 
 produtoSelect.addEventListener('change', function() {
     produtoSelecionado = produtoSelect.value;
@@ -29,8 +30,8 @@ function adicionar() {
     } else {
         console.error('Por favor, insira uma quantidade válida!');
     }
-
     atualizarCarrinho(); // Atualiza a exibição do carrinho após adicionar o produto
+    document.getElementById('quantidade').value = 1; // Atualiza o campo de quantidade
 }
 
 // Função para atualizar a exibição do carrinho
